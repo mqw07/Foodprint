@@ -1,0 +1,61 @@
+.suggestions-card {
+  margin-bottom: 1.5rem;
+}
+
+.suggestions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.suggestion-item {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border-left: 4px solid var(--accent);
+}
+
+.suggestion-title {
+  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.suggestion-tips {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.suggestion-tip {
+  color: #555;
+  line-height: 1.6;
+  padding-left: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.no-suggestions {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .suggestion-item {
+    padding: 0.875rem;
+  }
+
+  .suggestion-title {
+    font-size: 1rem;
+  }
+
+  .suggestion-tip {
+    font-size: 0.9rem;
+  }
+}
