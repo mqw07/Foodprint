@@ -1,4 +1,4 @@
-# Waste Impact Tracker 🗑️
+# Waste Impact Tracker 
 
 A MERN stack application that helps users track their daily waste and understand their environmental impact through CO₂ emissions, landfill volume, and decomposition time calculations.
 
